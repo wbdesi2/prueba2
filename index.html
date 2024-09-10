@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wooden</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="img/favicon.ico" rel="shortcut icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<header>
+	
+		<div class="container">
+		
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a href="index.html" class="navbar-brand d-block text-center">
+					<i class="las la-compass"></i> Wooden
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item active">
+                    		<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		
+		</div>
+	
+	</header>
+<section id="hero" class="container-fluid">
+	<div class=" row owl-carousel">
+			<article>
+				<img src="img/slide-2.jpg" alt="sld1" class="img-fluid" width="10%" height="1%">
+				<div class="overlay"> WE DESING FURNITURES AND DOORS</div>
+				<div class="downtext">SOLUTIONS MADE EASY</div>
+		    </article>
+			<article>
+				<img src="img/slide-3.jpg" alt="sld2" class="img-fluid" width="10%" height="1%">
+				<div class="overlay"> WE DESING FURNITURES AND DOORS</div>
+				<div class="downtext">SOLUTIONS MADE EASY</div>
+		    </article>
+			<article>
+				
+				<img src="img/slide-1.jpg" alt="sld3" class="img-fluid" width="10%" height="1%">
+				<div class="overlay"> WE DESING FURNITURES AND DOORS</div>
+				<div class="downtext">SOLUTIONS MADE EASY</div>
+		    </article>
+			
+		</div>
+	
+	</section>
+	
+	<section id="about" class="container-fluid">
+		<h1>ABOUT US</h1>
+	 <div class="row">
+		 <article id="card" class="col-lg-4 col-sm-12 col-12">
+         <div class="card">
+		 <i class="fa-solid fa-table"></i>
+			<h3>expert designrs</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi esse suscipit voluptatem, velit.</p>
+		 </div>
+		</article>
+		 <article id="card2" class="col-lg-4 col-sm-12 col-12">
+			<div class="card">
+		<i class="fa-solid fa-money-check-dollar"></i>
+			<h3>affordable prices</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi esse suscipit voluptatem, velit.</p>
+			</div>
+		</article>
+		 <article id="card3" class="col-lg-4 col-sm-12 col-12">
+			<div class="card">
+		<i class="fa-regular fa-clock"></i>
+			<h3>24-7 work</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi esse suscipit voluptatem, velit.</p>
+			</div>
+		</article>
+	 </div>
+	</section>
+	<section id="counter" class="container-fluid">
+		<div class="row">
+		 <article class="col-lg-3 col-sm-12 col-12">
+		 <i class="fa-solid fa-face-smile"></i>
+			
+			 <h4>45</h4>
+			 <p>happy clients</p>
+		</article>
+			
+			 <article class="col-lg-3 col-sm-12 col-12">
+		 <i class="fa-brands fa-instagram"></i>
+			
+			 <h4>165</h4>
+				 <p>instagram</p>
+		</article>
+			<article class="col-lg-3 col-sm-12 col-12">
+		 <i class="fa-solid fa-list-check"></i>
+			
+			 <h4>556</h4>
+				<p>complete work</p>
+		</article>
+			<article class="col-lg-3 col-sm-12 col-12">
+		<i class="fa-solid fa-award"></i>
+			
+			 <h4>245</h4>
+				<p>cawards won</p>
+		</article>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 - Prueba Segundo Parcial - {jhocelyn espinoza}</p>
+		</div>
+	</footer>
+
+	<!-- js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({
+						items: 1,
+						loop: true,
+						autoplay: true,
+						smartSpeed: 800,
+						margin: 30,
+						center: true,
+						dots: true,
+						responsive: {
+							0: {
+								items: 1
+							},
+							480: {
+								items: 1
+							},
+							992: {
+								items: 1
+							}
+						}
+					});
+});
+	</script>
+
+</body>
+
+</html>
